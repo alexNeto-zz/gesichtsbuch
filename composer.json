@@ -1,0 +1,12 @@
+{
+    "name": "alexneto/gesichtsbuch",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alexNeto",
+            "email": "alex.neto3@hotmail.com"
+        }
+    ],
+    "require": {}
+}
