@@ -16,7 +16,7 @@ try {
 
 require_once 'secret.php';
 
-$appName = 'gesichtsbuch';
+$appname = 'gesichtsbuch';
 
 $conection = new mysqli($hn, $un, $pw, $db);
 
