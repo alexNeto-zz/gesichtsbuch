@@ -1,13 +1,13 @@
 <?php
 
 try {
-    if (! @include_once( './secret.php' )) {
+    if (! @include_once('./secret.php')) {
         throw new Exception ('secret.php does not exist');
     }
-    if (!file_exists('./secret.php' )) {
+    if (!file_exists('./secret.php')) {
         throw new Exception ('secret.php does not exist');
     } else {
-        require_once('./secret.php' ); 
+        require_once './secret.php'; 
     }      
 } catch(Exception $e) { 
     echo "Message : " . $e->getMessage();
